@@ -1,0 +1,3 @@
+What is the difference between a merge and a rebase?
+
+The difference between a merge and a rebase is how the logs work. With a rebase, the logs between the two branches are being stacked so that one of the branches has all of its commit history, and then the other has all of its commit history. The idea is to improve readability. With a merge, the git histories are combined as they are historically (in chronological order) to preserve the actual original history
